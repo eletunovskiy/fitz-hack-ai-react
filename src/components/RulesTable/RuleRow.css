@@ -1,0 +1,38 @@
+.toggle-switch {
+    cursor: pointer;
+  }
+  
+  .slider {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: gray;
+    color: #fff;
+  }
+  
+  .slider.active {
+    background-color: #FF6D00;
+  }
+  
+  .menu-cell {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    right: 0;
+    background-color: #333333;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu li {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #444444;
+  }

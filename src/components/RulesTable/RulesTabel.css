@@ -1,0 +1,22 @@
+.rules-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rules-table th, .rules-table td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .rules-table tbody tr:nth-child(even) {
+    background-color: #2C2C2C;
+  }
+  
+  .rules-table tbody tr:hover {
+    background-color: #333333;
+  }
+  
+  .rules-table th {
+    background-color: #212121;
+    color: #E0E0E0;
+  }
